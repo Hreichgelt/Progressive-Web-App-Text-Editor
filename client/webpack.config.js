@@ -26,7 +26,7 @@ module.exports = () => {
 
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
 
       }),
       new WebpackPwaManifest({
@@ -38,7 +38,7 @@ module.exports = () => {
         description: "Just Another Text Editor",
         background_color: "blue",
         start_url: './', 
-        public_path: './', 
+        publicPath: './', 
         icons:[
           {
             src: path.resolve('./src/images/logo.png'), 
