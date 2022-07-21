@@ -22,6 +22,14 @@ module.exports = () => {
         title: "Client Server",
         template: "./index.html",
       }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+
+      }),
+      new WebpackPwaManifest({
+
+      }),
     ],
 
     module: {
