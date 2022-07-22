@@ -1,8 +1,22 @@
 # Progressive-Web-App-Text-Editor
-A progressive web app text editor, where users can create notes or code snippets with or without an internet connection. This PWA utilizes IndexDB  and Heroku
+
+[LIVE SITE](https://still-journey-23896.herokuapp.com/)
+
+[REPOSITORY](https://github.com/Hreichgelt/Progressive-Web-App-Text-Editor)
+
+## TABLE OF CONTENTS
+
+1. [Description](#description)
+2. [Usage](#USAGE)
+3. [Visuals](#visuals)
+4. [Authors Acknowledgments](#authors-and-acknowledgments)
+5. [Resources](#resources)
+
+## DESCRIPTION
+A progressive web app text editor, where users can create notes or code snippets with or without an internet connection. This PWA utilizes IndexDB, Webpack plugins, and Heroku.
 
 
-GIVEN a text editor web application
+## USAGE
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
 WHEN I run `npm run start` from the root directory
@@ -27,3 +41,19 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
+
+
+## VISUALS
+
+![JATE](/client/src/images/landingpage.png)
+![JATE](/client/src/images/installPrompt.png)
+![JATE](/client/src/images/app.png)
+
+
+
+## RESOURCES
+
+1. [LIVE SITE](https://still-journey-23896.herokuapp.com/)
+
+2. [REPOSITORY](https://github.com/Hreichgelt/Progressive-Web-App-Text-Editor)
+
